@@ -1,0 +1,23 @@
+{
+    "name": "helingfeng/http-test",
+    "authors": [
+        {
+            "name": "helingfeng",
+            "email": "857190327@qq.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "HttpTest\\": "src"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}
